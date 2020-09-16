@@ -1,0 +1,50 @@
+h1, h3{
+	color:blue;
+	font-size:250px;	
+	font-family:Brush Script MT;
+}
+body{
+	background:orange;
+	background-image:url(6os.gif);
+	background-repeat:repeat;
+	background-attachment:skroll;
+	background-position:center;
+	
+	color:yellow;
+}
+#Yee{
+	color:black;
+	font-size:250px;
+}
+.cl1{
+	color:green;
+	font-size:100px;
+	font-style:oblique;
+	font-family:Comic Sans MS;
+	
+	
+}
+p i {
+		color:blue;
+		
+}
+p:first-letter{
+	color:yellow;
+}
+p:first-line{
+	color:white;
+}
+
+a{
+		color:white;
+		font-size:100px;
+}
+a:hover{
+		color:black;
+		font-size:10px;
+}
+
+a:link - стиль простой ссылки
+a:active - стиль активной ссылки
+a:visited - стиль посещенной ссылки
+a:hover - ссылка, на которую наведен курсор
