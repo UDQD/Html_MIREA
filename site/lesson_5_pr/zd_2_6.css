@@ -1,0 +1,22 @@
+body {
+    background: url("https://img-fotki.yandex.ru/get/67890/136164467.17/0_12bc81_21263ac1_orig.png");
+}
+div {
+    margin: 60px auto;
+    width: 350px;
+    font-family: "Century";
+}
+h3 {
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 10px;
+}
+a {
+    margin-top: -10px;
+    display: block;
+    text-align: center;
+}
+span {
+    font-family: "Monotype Corsiva";
+}

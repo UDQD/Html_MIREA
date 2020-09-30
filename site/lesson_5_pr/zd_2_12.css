@@ -1,0 +1,46 @@
+body {
+  font-size: 14px;
+	font-family: serif;
+}
+
+.container {
+  width: 565px;
+  margin: 60px auto;
+  padding: 5px 30px;
+}
+h1 {
+  margin-bottom: 0;
+}
+h1, h2 {
+  font-weight: normal;
+  color: #A22028;
+  position: relative;
+}
+h1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  right: 0;
+  border-top: 1px solid #F5A9A9;
+ 
+}
+a {
+  color: #A22028;
+}
+pre {
+  display: block;
+	background-image: linear-gradient(to bottom, #434343, #000000);
+	color: white;
+	height: 20px;
+	padding: 20px 10px;
+}
+p {
+  margin: 30px 0;
+}
+.small {
+	color: gray;
+	font-size: 12px;
+	font-family: cursive;
+	margin-top: 0;
+}

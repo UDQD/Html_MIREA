@@ -1,0 +1,14 @@
+body {
+   background-color: #FFDEAD;
+	
+}
+div {
+   width: 280px;
+   border-left: 3px dotted blue;
+   margin: 10px 20px;
+   padding-left: 15px;
+}
+p {
+  text-align: justify;
+	text-indent: 20px;
+}

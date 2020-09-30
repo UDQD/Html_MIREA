@@ -1,0 +1,38 @@
+body {
+	font-size: 14px;
+	font-family: sans;
+}
+
+nav {
+	width: 180px;
+	background-color: #f7f5f5;
+	margin: 20px auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	list-style: none;
+}
+
+li {
+	border-bottom: 1px solid #d3d3d3;
+}
+
+a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #406A97;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+li.active a {
+	background-color: #4072B7;
+	color: white;
+}

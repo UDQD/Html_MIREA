@@ -4,8 +4,8 @@ h1, h3{
 	font-family:Brush Script MT;
 }
 body{
-	background:orange;
-	background-image:url(6os.gif);
+	background:black;
+	background-image:url(ee.gif);
 	background-repeat:repeat;
 	background-attachment:skroll;
 	background-position:center;
@@ -20,9 +20,7 @@ body{
 	color:green;
 	font-size:100px;
 	font-style:oblique;
-	font-family:Comic Sans MS;
-	
-	
+	font-family:Comic Sans MS;	
 }
 p i {
 		color:blue;
@@ -43,6 +41,29 @@ a:hover{
 		color:black;
 		font-size:10px;
 }
+#qqq{
+	-webkit-animation:gradient 2s linear infinite;
+	animation:gradient 2s infinite;
+	
+}
+img{
+	width="200%";
+	animation-name:rotation;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	
+	
+}
+@keyframes rotation{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+
 
 a:link - стиль простой ссылки
 a:active - стиль активной ссылки

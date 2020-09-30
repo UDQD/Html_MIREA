@@ -1,0 +1,30 @@
+.container {
+   width: 375px;
+   margin: 60px auto;
+   padding: 30px;
+   background-color: #4DD0E2;
+}
+
+.block {
+	display: inline-block;
+	background-color: white;
+	box-shadow: 0 1px 2px -1px gray;
+	margin-right: 5px;
+	height: 130px;
+}
+.block1 {
+  width: 15px;
+}
+.block2 {
+  width: 30px;
+}
+.block3 {
+  width: 45px;
+}
+.block4 {
+  width: 80px;
+}
+.block5 {
+  width: 165px;
+	margin-right: 0;
+}

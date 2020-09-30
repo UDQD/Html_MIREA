@@ -1,0 +1,36 @@
+body {
+	 background-image: url("https://image.freepik.com/free-vector/_1017-1904.jpg");
+	 background-size: cover;
+}
+.container {
+   margin: 20px auto;
+	 width: 500px;
+	 text-align: center;
+}
+span {
+   display: block;
+}
+
+.header {
+   background-image: url("http://static2.bigstockphoto.com/thumbs/6/5/6/small2/65648002.jpg");
+	 float: left;
+	 width: 100%;
+	 padding: 5px 0;
+}
+.sidebar {
+	background-image: url("http://www.fonstola.ru/download.php?file=201311/1280x1024/fonstola.ru-136085.jpg");
+	float: left;
+	width: 34%;
+}
+.content {
+	background-image: url("https://mdn.mozillademos.org/files/161/Blue-rule-ground.png");
+	float: right;
+	width: 66%;
+}
+
+.footer {
+  background-image: url("http://static2.bigstockphoto.com/thumbs/6/5/6/small2/65648002.jpg");
+	clear: both;
+	width: 100%;
+	padding: 5px 0;
+}

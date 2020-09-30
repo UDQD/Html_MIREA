@@ -1,0 +1,24 @@
+body {font-family: sans-serif;}
+p, h2 {font-size: 14px; line-height: 25px;}
+.link {font-weight: bold; text-decoration: none; color: #000; float: right; font-size: 14px;}
+.box {width: 605px; border-left: 1px solid #ccc;}
+.box-in {padding: 2px 30px;}
+.long1, .long2 {
+  display: block;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 9px 5px;
+  font-size: 12px;
+}
+.long2 {
+  overflow-x: scroll;
+  white-space: nowrap; 
+}
+.short {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 5px;
+  font-size: 12px; 
+}
+.color1 {color: #009999;}
+.color2 {color: #666; font-style: italic; }

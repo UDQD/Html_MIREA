@@ -1,0 +1,24 @@
+body {
+   font-family: Arial, sans-serif;
+}
+
+div {
+   width:540px;
+   position:absolute;
+   left:50%;
+   top:50%;
+   margin:-100px 0 0 -270px;
+	 text-align: right;
+	 padding: 10px 20px;
+	 background-color: #FAFAFA;
+}
+a {
+   color: #A22028;
+	 font-size: 18px;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 font-family: "Times New Roman", serif;
+}
+h3 {
+   font-weight: normal;
+}

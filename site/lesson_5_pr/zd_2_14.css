@@ -1,0 +1,39 @@
+body {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+nav {
+	width: 220px;
+	border-left: 20px solid #fafafa;
+	padding-top: 20px;
+  margin: 10px auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	border-top: 1px  dashed gray;
+	list-style: none;
+	padding-top: 20px;
+	margin-left: 35px;
+}
+li {
+  text-transform: uppercase;
+	font-weight: bolder;
+	padding: 5px;
+	width: 155px;
+	overflow: hidden;
+}
+a {
+	display: block;
+	width: 165px;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	
+}
+li.active a {
+  background-color: #d01040;
+	color: white;
+}

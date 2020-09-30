@@ -1,0 +1,45 @@
+header {
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+    padding: 7px 4px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414141;
+}
+div {
+    width: 150px;
+    height: 150px;
+    margin: 6px;
+    background-color: #272727;
+    color: whitesmoke;
+}
+.block {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 33%;
+}
+span {
+    font-style: italic;
+}
+footer {
+    margin: auto;
+    width: 500px;
+    text-align: right;
+}
+.link {
+    display: block;
+    position: relative;
+    left: 130px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+/* :c */
