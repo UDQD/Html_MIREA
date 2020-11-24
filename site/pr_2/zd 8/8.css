@@ -1,0 +1,46 @@
+
+#red
+{
+	display: inline-block;
+	width:50%;
+	height:400px;
+	background-color:red;
+}
+#wh
+{
+	color:white;
+	font-size:20px;
+	margin-left:15px;
+}
+#black
+{
+	display: inline-block;
+	width:49%;
+	height:400px;
+	background-color:black;
+}
+iframe
+{
+	margin-left:15px;
+}
+#top
+{
+	margin-top:21px;
+	position:relative;
+}
+#bl
+{
+	color:black;
+	font-size:20px;
+	margin-left:15px;
+}
+#rad
+{
+	width:100%;
+	height:30px;
+	background-color:red;
+}
+#zag
+{
+	font-size:20px;
+}

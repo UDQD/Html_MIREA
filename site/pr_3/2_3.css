@@ -1,0 +1,12 @@
+div{
+	margin-top: 75px;
+	margin-left: 65px;
+	padding: 15px;
+	padding-bottom: 3px;
+	padding-top:3px;
+	width:1300px;
+	height: auto;
+	background-color: rgb(6, 230, 200);
+	border: 6px outset rgb(6, 247, 58);
+	box-shadow: 0 0 20px 3px Purple;
+}

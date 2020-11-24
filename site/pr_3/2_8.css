@@ -1,0 +1,28 @@
+#square
+{
+	position: relative;
+	display: block;
+	width: 18%;
+	height: 32%;
+	background-color: green;
+}
+#square:after 
+{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+#content
+{
+	border: 1px solid black;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}

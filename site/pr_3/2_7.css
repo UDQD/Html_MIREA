@@ -1,0 +1,16 @@
+#form
+{
+	width: 500px;
+}
+
+p input:invalid + span:after 
+{
+	content: '*';
+	color: red;
+}
+
+p input:valid + span::after 
+{
+	content: '✓';
+	color: rgb(0, 255, 0);
+}

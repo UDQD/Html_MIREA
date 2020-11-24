@@ -1,0 +1,12 @@
+span {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.up {
+    vertical-align: super;
+}
+
+.down {
+    vertical-align: sub;
+}

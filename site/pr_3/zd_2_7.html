@@ -1,0 +1,30 @@
+<!DOCETYPE html>
+<html>
+<head>
+<title>2</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="2_7.css">
+</head>
+<body> 
+<form>
+<div id="form">
+<p>
+<label for="name"> Имя пользователя </label><input type="text" name="name" id="name" required pattern="^[А-Яа-яЁё\s]{2,}" placeholder="Виталий"><span></span>
+</p>
+<p>
+<label for="age"> Сколько вам лет? </label><input type="number" name="name" id="age" required pattern="^[0-9]{2}$" min="18" placeholder="19"><span></span>
+</p>
+<p>
+<label for="work"> Вы учитесь или работаете? </label><input type="text" name="name" id="work" required pattern="^[А-Яа-яЁё\s]{6,}" placeholder="Учусь"><span></span>
+</p>
+<p>
+<label for="time"> Сколько у вас свободного времени? </label><input type="text" name="name" id="time" required pattern="^[А-Яа-яЁё\s]{6,}" placeholder="Нет его"><span></span>
+</p>
+<p>
+<label for="stuff"> Что вы обычно делаете в свободное время? </label><input type="text" name="name" id="stuff" required pattern="^[А-Яа-яЁё\s]{6,}" placeholder="Лежу"><span></span>
+</p>
+<input type="submit" style="margin-left: 75%" name="submit" value="Отправить">
+</div>
+</form>
+</body>
+</html>

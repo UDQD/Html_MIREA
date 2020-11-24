@@ -1,0 +1,16 @@
+#shadow2{
+	margin-left: 60px;
+	box-shadow: 0 0 15px 7px rgb(54, 212, 14),
+				10px 10px 20px rgb(6, 87, 238),
+				-10px -10px 20px 2px Grey,
+				0 20px 50px Black;
+	transition-property: box-shadow;
+	transition-duration: 1s;
+}
+#shadow2:hover{
+	box-shadow: 0 0 20px 12px Red,
+				15px 15px 30px Orange,
+				-15px -15px 30px 2px Yellow,
+				0 20px 60px 15px Green;
+	transition-duration: 1s;
+}
