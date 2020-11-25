@@ -1,0 +1,63 @@
+.hd {
+    /* display: grid; */
+    /* grid-template-columns: 50% 30% 20%;   */
+}
+#H{
+	color:rgb(255, 255, 255);
+	font-size:80px;	
+    background-color: rgba(0, 0, 0, 0.616);
+    position: absolute;
+    top: 3%; 
+    left: 1%;
+    padding:20px;
+    margin-top:20px;
+    
+    
+    
+}
+#lst{
+    background-color: rgb(7, 215, 252, 0.4);
+    font-size:32px;	
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 3%; 
+    left: 56%;
+    padding:44px;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+.mainmenubtn {
+    background-color: rgb(7, 215, 252, 0.4);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    padding:44px;
+    margin-top:20px;
+    font-size:32px;	
+}
+.dropdown {
+    position: absolute;
+    top: 3%; 
+    left: 80%;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
