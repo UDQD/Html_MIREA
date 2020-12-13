@@ -1,0 +1,18 @@
+th{
+	background-color:rgb(199, 94, 94);
+	border-collapse: collapse;
+    border: 1px solid white;
+}
+#tab1{
+	width:600px;
+	background-image: url("https://memepedia.ru/wp-content/uploads/2016/08/fdKZ-ZpN7iw.jpg");
+	border-collapse: collapse;
+    border: 1px solid rgb(62, 190, 79);
+}
+td{
+	color:rgb(151, 22, 130);
+}
+tr:hover {
+    background: #b4179f;
+}
+

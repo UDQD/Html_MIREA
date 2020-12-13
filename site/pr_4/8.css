@@ -1,0 +1,28 @@
+div{
+	height:100px;
+	width:200px;
+	border:2px solid black;
+}
+
+#i1{
+	transform:translate(140px, 40%);
+}
+
+#i2{
+	transform:rotate(45deg) scale(2, 2) skew(30deg, 30deg) translate(120px, 50%);
+}
+
+#i3{
+	transform:scale(3, 2);
+}
+
+#i4{
+	transform:skew(30deg, 30deg);
+}
+
+#i5{
+	transform:rotate(70deg);
+}
+
+
+

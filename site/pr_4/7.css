@@ -1,0 +1,67 @@
+.w_row 
+{
+	display: flex;
+	margin-top: 10px;
+}
+
+.w_day 
+{
+	width: 150px;
+	margin-right: 2px;
+}
+
+.w_day:hover 
+{
+	box-shadow: 0 0 5px 1px black;
+}
+
+.name
+{
+	font-size: 18px;
+    margin-left: 6px;
+}
+
+.date 
+{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    margin: 6px;
+}
+
+.title 
+{
+    font-size: 24px;
+	font-weight: bold
+}
+
+.button 
+{
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: #eceef2;
+}
+
+.condition 
+{
+    color: grey;
+    line-height: 20px;
+    margin: 6px;
+    font-size: 18px;
+}
+
+.tnight 
+{
+    color: grey;
+    line-height: 14px;
+    font-size: 16px;
+    margin-bottom: 18px;
+	margin-left: 6px;
+}
+
+.tday 
+{
+    font-size: 21px;
+    margin: 6px;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+div{
+	border:5px solid;
+	width:200px;
+	height:80px;
+	position: relative;
+}
+#red:before{
+	content:"";
+	display:block;
+	background:red;
+	width:33%;
+	height:100%;
+}
+#yel:before{
+	content:"";
+	display:block;
+	background:yellow;
+	width:66%;
+	height:100%;
+}
+#green:before{
+	content:"";
+	display:block;
+	background:green;
+	width:100%;
+	height:100%;
+}
+div:after {
+	content:"";
+    width: 10px;
+    height: 20px;
+    background: #000;
+    right: -10px; top: 30px;
+	position: absolute;
+}

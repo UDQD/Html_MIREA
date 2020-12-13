@@ -1,0 +1,47 @@
+input[type="checkbox"] {
+    box-shadow: 0 0 10px red;
+    }
+    
+    input[type="checkbox"]:not(:checked) {
+        box-shadow: 0 0 5px orange;
+    }
+    
+    [id|="message"] {
+        box-shadow: 0 0 5px rgb(224, 248, 3);
+    }
+    
+    [id^="message-"] {
+        color: rgb(48, 3, 248);
+    }
+    a[href$=".zip"] {
+        color: green;
+    }
+    
+    [data-action~="delete"] {
+        color: blue;
+    }
+    
+    [data-action]:not([data-action~="delete"]) {
+        box-shadow: inset 0 0 15px black;
+    }
+    
+    #messages li:nth-child(2n):before {
+        content: "2n -> | ";
+    }
+    
+    h3#widget-title + * {
+        background: rgb(255, 255, 255);
+    }
+    
+    h3#widget-title ~ a:before {
+        content: "link -> | ";
+    }
+    
+    h3#widget-title ~ a:before {
+        content: "link -> | ";
+    }
+    
+    #messages li:last-child {
+        background: rgb(207, 67, 184);
+    }
+    

@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="st_4.css">
+<link rel="stylesheet" href="st_1.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Нил</title>
     <style>
         body {
-            background: rgb(120, 140, 143)
+            background: rgb(44, 152, 167)
        }
     </style>    
     <script src="up.js"></script>
 </head>
 <body>
     <a href="#" class="back_top">&uarr;</a>
-    <p id="H">Миссисипи с Миссури</p>
+    <p id="H">.</p>
     <!-- <a class="back_to_top" title="Наверх">&uarr;</a> -->
     <a href="..\main.html" id="home">Главная страница</a>
     <!-- <a href="..\main.html" id="map">Показать на карте</a> -->
-    <p id="p_1"><img src="pict/4_1.jpg" width="600px" height="338px"  border="1" alt="загрузка..."></p>
-    <p id="p_2"><img src="pict/4_2.jpg" width="600px" height="338px" border="1" alt="загрузка..."></p>
-    <p id="p_3"><img src="pict/4_3.jpg" width="600px" height="338px" border="1" alt="загрузка..."></p>
+    <p id="p_1"><img src="pict/1_1.jpg" width="600px" height="338px"  border="1" alt="загрузка..."></p>
+    <p id="p_2"><img src="pict/1_2.jpg" width="600px" height="338px" border="1" alt="загрузка..."></p>
+    <p id="p_3"><img src="pict/1_3.jpg" width="600px" height="338px" border="1" alt="загрузка..."></p>
     <p id="text_1">. </p>
 
     <p id="text_2">.
@@ -31,7 +31,7 @@
                 Площадь:  тыс. км²<br>
                 Расход воды:  м³/сек <br>
     </p>
-    <p id="p_4"><img src="pict/4_4.jpg" height="600px"  border="1" alt="загрузка..."></p>
+    <p id="p_4"><img src="pict/1_4.jpg" height="600px"  border="1" alt="загрузка..."></p>
     <p id="dk">РЕКА . НА КАРТЕ</p>
         
         

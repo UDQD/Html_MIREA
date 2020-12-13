@@ -1,0 +1,25 @@
+#s1{
+	text-decoration:line-through;
+	text-decoration-style:dotted;
+	text-decoration-color: rgb(4, 236, 54);
+	font-family:Comic Sans MS;
+	font-style:bold;
+}
+#s2{
+	text-decoration: underline overline;
+}
+#s3{
+	text-decoration:underline;
+	text-decoration-style:wavy;
+}
+#s4{
+	text-decoration:overline;
+	text-decoration-style:dashed;
+	text-decoration-color: rgb(128, 0, 100);
+	font-family:Comic Sans MS;
+}
+#s5{
+	text-decoration:line-through;
+	text-decoration-style:double;
+	text-decoration-color: rgb(17, 154, 172);
+}

@@ -1,0 +1,16 @@
+th{
+	background-color:white;
+	border-collapse: collapse;
+	border-bottom: 3px solid rgb(255, 51, 0);
+	color:rgb(0, 253, 0);
+	text-align:left;
+}
+table{
+	width:600px;
+	background:rgb(255, 255, 255);
+    border: 0;
+	border-spacing: 10px 2px;
+}
+td{
+	color:rgb(241, 3, 241);
+}

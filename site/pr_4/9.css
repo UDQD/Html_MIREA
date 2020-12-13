@@ -1,0 +1,39 @@
+div{
+	height:100px;
+	width:200px;
+	border:2px solid black;
+	position:absolute;
+}
+#rot{
+	top:30%;
+}
+
+#rot:hover{
+	box-shadow: 0 0 20px 12px Red,
+				15px 15px 30px Orange;
+	transform:rotate(90deg);
+}
+
+#but1{
+	transition-duration: 5s;
+	transform: scale(1.5);
+	top:30%;
+	left:30%;
+	transition-timing-function: linear;
+	transition-delay: .5s;
+	background: linear-gradient(to top, #fefcea, #f1da36);
+	box-shadow: 0 0 20px 12px Green,
+				15px 15px 30px Yellow;
+}
+
+#but2{
+	transition-duration: 5s;
+	transform: scale(1.2);
+	top:30%;
+	left:60%;
+	transition-timing-function: ease;
+	transition-delay: 1.3s;
+	background: linear-gradient(to top, #DC143C, #FFC0CB);
+	box-shadow: 0 0 20px 12px Blue,
+				15px 15px 30px Purple;
+}
