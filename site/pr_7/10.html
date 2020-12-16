@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>10</title>
+</head>
+<body>
+
+<div class="pane">
+    Lorem ipsum mauris enim risus metus et gravida urna curabitur eget congue tempus vivamus, rutrum porttitor metus sed. Nam vitae et nulla sagittis urna magna, bibendum, vitae sagittis cursus. Proin orci cursus urna molestie: maecenas, a arcu ornare porta molestie amet quisque proin at — adipiscing nulla vitae — eget leo sit sodales rutrum.
+<br><br>
+</div>
+<div class="pane">
+    Enim ornare: lorem eu orci commodo, malesuada nam lectus — porta sem tempus, lectus eros non. Mauris pellentesque pharetra cursus molestie sit, adipiscing eget: sapien, bibendum proin quisque sagittis porta. Nec molestie quam magna congue non et at lorem justo arcu donec quisque elementum quisque congue leo odio sagittis ornare donec vitae magna
+<br><br>
+</div>
+<div class="pane">
+    Auctor tempus sodales nec ut nibh nam et duis, donec lectus, pharetra vivamus odio non pellentesque eu risus. Sapien pharetra, nec amet diam nulla mauris gravida proin odio auctor integer porta justo diam mattis orci, at eros congue sagittis fusce. Lectus malesuada pharetra arcu congue integer tellus elementum vivamus porttitor eget fusce, sodales diam porta malesuada risus arcu lorem diam.
+</div>
+
+<script>
+for(let pane of document.querySelectorAll('.pane')) {
+     pane.insertAdjacentHTML("afterbegin", '<button class="remove-button">[x]</button>');
+     pane.firstChild.onclick = () => pane.remove();
+}
+</script>
+
+</body>
+</html>

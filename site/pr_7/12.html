@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>12</title>
+</head>
+<body>
+
+<ul class="tree" id="tree">
+    <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!
+      <ul>
+        <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!
+          <ul>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+          </ul>
+        </li>
+        <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!
+          <ul>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!
+      <ul>
+        <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!
+          <ul>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+          </ul>
+        </li>
+        <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!
+          <ul>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+			<li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+			<li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+          </ul>
+        </li>
+		<li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!
+          <ul>
+            <li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+			<li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+			<li>AAAAaaAAAaaaAAAAAAAAaAAAAaaAAA!</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <script>
+    for (let li of tree.querySelectorAll("li")) {
+      let span = document.createElement("span");
+      li.prepend(span);
+      span.append(span.nextSibling);
+    }
+
+    tree.onclick = function(event) {
+      if (event.target.tagName != "SPAN") {
+        return;
+      }
+	  
+      if (!event.target.parentNode.querySelector("ul")) return;
+
+      event.target.parentNode.querySelector("ul").hidden = !event.target.parentNode.querySelector("ul").hidden;
+    }
+  </script>
+
+
+</body>
+</html>
+

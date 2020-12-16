@@ -31,7 +31,7 @@
                 Площадь:  тыс. км²<br>
                 Расход воды:  м³/сек <br>
     </p>
-    <p id="p_4"><img src="pict/1_4.jpg" height="600px"  border="1" alt="загрузка..."></p>
+    <p id="p_4"><img src="pict/5_4.jpg" height="600px" width="600"  border="1" alt="загрузка..."></p>
     <p id="dk">РЕКА . НА КАРТЕ</p>
         
         

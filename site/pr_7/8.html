@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>8</title>
+
+<style>
+  #elem{
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+  }
+</style>
+
+</head>
+<body>
+
+<div id="elem">
+    Lorem ipsum pellentesque enim sem sagittis non duis mattis sodales vivamus,
+     leo sem nam, cursus. Justo commodo vitae elementum malesuada integer lectus 
+     tellus pharetra auctor ultricies duis eget — malesuada in ipsum quam arcu vitae proin.
+
+    Sem ligula enim eu — tempus mattis, eget sit curabitur congue, morbi congue ornare mattis 
+    porttitor curabitur porta nam vivamus pharetra adipiscing morbi. Nec, ut quisque orci pharetra 
+    sagittis enim nam, donec leo pellentesque porta malesuada in vitae ultricies eget nulla odio 
+    sit elementum sapien. Auctor enim maecenas ipsum porta nulla a lorem in non in eu. Porta donec 
+    molestie, sodales amet sed fusce magna porta, nibh duis maecenas integer quisque amet porttitor 
+    quam, nulla vitae ut fusce. Massa metus nulla ligula sem leo enim vulputate, arcu cursus in sodales
+     maecenas sed — malesuada.
+    
+    Justo amet tellus pharetra porttitor commodo sodales ultricies, eget in proin quam commodo eget.
+     Commodo, risus mattis porta ut curabitur lorem, duis rutrum, nibh lorem pellentesque, risus massa 
+     mauris donec. Porta nibh pharetra sed odio — tellus bibendum gravida eros curabitur amet sodales 
+     mattis risus vitae nibh, morbi integer justo ultricies: malesuada rutrum. Curabitur porta sapien
+      eros mattis porta eros, donec sem curabitur elementum pellentesque vulputate adipiscing, a. Ornare
+       amet metus porttitor porta cursus sed vivamus diam nam duis enim elementum quam. Diam vivamus eget
+        pharetra lorem fusce — ipsum nibh sem sagittis diam. Sit bibendum porttitor non nam risus, rutrum
+         vivamus maecenas congue, ultricies mattis risus — molestie porta enim cursus nibh nec lorem malesuada
+          orci malesuada sagittis at.
+</div>
+<br>
+<input type="button" id="but1" value="Вы прокрутили...">
+
+<br><br>
+
+<input type="button" id="but2" value="На 200">
+
+<br><br>
+
+<input type="button" id="but3" value="На -200">
+
+<script>
+document.getElementById("but1").addEventListener("click", function() {
+	alert(document.getElementById("elem").scrollTop);
+});
+
+document.getElementById("but2").addEventListener("click", function() {
+	document.getElementById("elem").scrollTop=200;
+});
+
+document.getElementById("but3").addEventListener("click", func);
+function func() {
+	document.getElementById("elem").scrollTop = document.getElementById("elem").scrollHeight - 200;
+}
+
+</script>
+
+</body>
+</html>

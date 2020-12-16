@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>5</title>
+</head>
+<body>
+
+<p id="text">Кхъ</p>
+<input id="but1" type="button" value="Меняем текст">
+
+<br><br>
+
+<input type="text" value="" id="text1">+<input type="text" value="" id="text2">=<span id="res"></span> <br>
+<input id="but2" type="button" value="Нажмите, чтобы сложить">
+
+<br><br>
+
+<input type="text" value="" placeholder="Введи в меня текст!" id="inText">
+<span id="afterText"></span>
+
+<br><br>
+<a id="a1" href="https://www.google.ru/">ссылка 1</a><br>
+<a id="a2" href="https://www.tut.by/">ссылка 2</a><br>
+<a id="a3" href="https://yandex.ru/">ссылка 3</a><br>
+<input id="but3" type="button" value="Нажмите на меня!">
+
+<script>
+document.getElementById("but1").onclick=function(){
+	document.getElementById("text").innerHTML = "<p style='font-size:20px;'><i>Кхъ</i></p>";
+}
+
+document.getElementById("but2").onclick=function(){
+	var num1=+document.getElementById("text1").value;
+	var num2=+document.getElementById("text2").value;
+	document.getElementById("res").innerHTML = num1 + num2;
+}
+
+document.getElementById("inText").onkeyup=function(){
+	document.getElementById("afterText").innerHTML = this.value;
+}
+
+document.getElementById("but3").onclick=function(){
+	document.getElementById("a1").innerHTML = "ссылка 1 (https://www.google.ru/)";
+	document.getElementById("a2").innerHTML = "ссылка 2 (https://www.tut.by/)";
+	document.getElementById("a3").innerHTML = "ссылка 3 (https://yandex.ru/)";
+}
+
+</script>
+
+</body>
+</html>

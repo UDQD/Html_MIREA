@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>14</title>
+</head>
+<body>
+
+<p id="contents"> Перейти по ссылке на <a href="https://lk.mirea.ru/">сайт с вирусам</a></p>
+
+<script>
+contents.onclick = function(event){
+	function handleLink(href) {
+		let isLeaving = confirm(`Вы действительно хотите перейти по небезопасной ссылке ${href}?`);
+		if (!isLeaving) return false;
+	}
+	
+	let target = event.target.closest('a');
+	if (target && contents.contains(target)) {
+		return handleLink(target.getAttribute('href'));
+	}
+};
+</script>
+  
+</body>
+</html>

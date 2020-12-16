@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>6</title>
+</head>
+<body>
+
+<p>Абзац с текстом</p>
+<p>Абзац с текстом</p>
+<p>Абзац с текстом</p>
+<input type="button" value="Нажмите на меня!" id="but1">
+
+<br><br>
+
+<span>Абзац с текстом</span><br>
+<span>Абзац с текстом</span><br>
+<span>Абзац с текстом</span><br>
+<span>Абзац с текстом</span><br>
+<span>Абзац с текстом</span><br>
+<span>Абзац с текстом</span><br>
+<span>Абзац с текстом</span><br>
+<span>Абзац с текстом</span><br>
+<input type="button" value="Нажмите на меня!" id="but2">
+
+<script>
+document.getElementById("but1").onclick=function(){
+	var elements = document.getElementsByTagName('p');
+	for (var i = 0; i < elements.length-1; i++){
+		elements[i].innerHTML = "Новый Абзац с текстом";
+	}
+}
+
+document.getElementById("but2").onclick=function(){
+	var elements = document.getElementsByTagName('span');
+	for (var i = 0; i < elements.length; i++){
+		elements[i].innerHTML = i+". "+elements[i].innerHTML;
+	}
+}
+</script>
+
+</body>
+</html>
+

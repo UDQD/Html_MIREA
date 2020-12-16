@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>3</title>
+</head>
+<body>
+
+<input id="text" type="text" value="Текст 1">
+
+<br>
+
+<input id="but1" type="button" value="Заблочить">
+<input id="but2" type="button" value="разблочить кнопку заблочить">
+
+<br>
+
+<input id="but3" type="button" value="0">
+
+<script>
+	document.getElementById("text").onfocus=function() {
+			this.value = "Текст 2";
+		}
+	document.getElementById("text").onblur=function() {
+		this.value = "Текст 3";
+	}
+		
+	but1.onclick = function() {
+		this.disabled=true;
+	};
+	but2.onclick = function() {
+		document.getElementById("but1").disabled=false;
+	};
+	
+	var i=0
+	but3.onclick = function() {
+		i++;
+		this.value=i;
+	};
+</script>
+
+</body>
+</html>
