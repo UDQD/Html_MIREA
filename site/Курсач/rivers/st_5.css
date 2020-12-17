@@ -13,7 +13,7 @@
 }
 #text_1{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    font-size:23px;	
+    font-size:25px;	
     position: absolute;
     top: 196px; 
     left: 750px;
@@ -147,3 +147,124 @@
     top: 1317px; 
     left:625px;
 } 
+
+@media screen and (max-width: 1400px) {
+
+    #H{
+        font-size:35px;	
+        width: 560px;
+     
+     }
+     #home {
+         font-size:25px;	
+         top: 68px; 
+         left: 480px;
+     
+         
+     }
+     #text_1{
+         top: 570px; 
+         left:100px;
+         width:563px;
+         font-size:25px;
+     }
+     #text_2{
+         top: 1310px; 
+         left: 100px;
+         width:563px;
+     }
+     #text_3{
+         top: 2050px; 
+         left: 100px;
+         width:563px;
+         font-size:22px;
+     }
+     #p_1{
+         top: 200px; 
+         left:100px;
+     }
+     #p_2{
+         top: 943px; 
+         left:100px;
+     }
+     #p_3{
+         top: 1680px; 
+         left:100px; 
+     }
+     #p_4{
+         top: 2420px; 
+         left:100px; 
+     }
+     #dk{
+         top: 2420px; 
+         left:100px; 
+     }
+     
+     }
+     
+     @media screen and (max-width: 700px) {
+     
+     #H{
+         font-size:25px;	
+         width: 560px;
+         left:10px;
+      
+      }
+      #home {
+          font-size:15px;	
+          top: 68px; 
+          left: 300px;
+      }
+     
+      #har{
+         top: 100px; 
+         left:10px;
+      }
+      #text_1{
+         font-size:18px;	
+          top: 470px; 
+          left:10px;
+          width:310px;
+      }
+      #text_2{
+         font-size:16px;	
+          top: 1210px; 
+          left: 10px;
+          width:310px;
+      }
+      #text_3{
+         font-size:16px;	
+          top: 1950px; 
+          left: 10px;
+          width:310px;
+      }
+      #p_1{
+          top: 100px; 
+          left:10px;
+     
+      }
+      #p_2{
+          top: 840px; 
+          left:10px;
+      }
+      #p_3{
+          top: 1580px; 
+          left:10px; 
+      }
+      #p_4{
+          top: 2320px; 
+          left:10px; 
+      }
+      #dk{
+          top: 2320px; 
+          left:10px; 
+      }
+      .back_top  {
+         
+         bottom: 10px;
+         left: 10px;
+         background: #f5f5f552;
+     
+     }
+      
+     }
